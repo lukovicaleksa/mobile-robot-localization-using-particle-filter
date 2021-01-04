@@ -1,4 +1,4 @@
-# mobile-robot-localization-using-Particle-filter
+# mobile-robot-localization-using-particle-filter
 Implementation of Particle filter algorithm for mobile robot (turtlebot3_burger) localization in ROS.
 
 Content:
