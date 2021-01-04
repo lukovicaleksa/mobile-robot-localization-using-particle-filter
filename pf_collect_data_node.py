@@ -18,7 +18,7 @@ THETA_INIT = 0.0  # in [degree]
 
 SIM_TIME = 30.0   # Simulation time [s]
 
-LOG_DIR = 'Data_test'
+LOG_DIR = 'Data'
 
 if __name__ == '__main__':
     try:
