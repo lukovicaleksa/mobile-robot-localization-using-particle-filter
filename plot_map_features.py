@@ -5,7 +5,7 @@ from pf_classes import *
 import numpy as np
 import matplotlib.pyplot as plt
 
-MAP_NAME = 'stage_1_test'
+MAP_NAME = 'stage_1'
 
 map = Map(MAP_NAME)
 map.extract_objects()
