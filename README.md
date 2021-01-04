@@ -20,4 +20,9 @@ Content:
     pf_algo.py -> calculating particles at each step using Data folder and storing results in Data/Estimation folder or just plotting the results directly from Data/Estimation folder
     
     
-    
+ Note: 
+ * Algorithm is implemented from scratch 
+ * Only first 90 steps are uploaded to Data/Estimation folder because github does not allow more files
+ * Only the map turtlebot3_stage_1.launch from turtlebot3_gazebo is handled, im working on more complex maps
+ * Data collection is done by manually driving turtlebot using turtlebot3_teleop_key.launch while pf_collect_data_node.py is active
+ 
