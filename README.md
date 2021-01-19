@@ -3,23 +3,13 @@ Implementation of Particle filter algorithm for mobile robot (turtlebot3_burger)
 
 Content:
 * [Data](Data) -> folder containing Odometry and Lidar data needed for the algorithm
-
-    Data -> folder containing Odometry and Lidar data needed for the algorithm
-    
-    Data/Estimation -> folder containing particles data at each step
-    
-    Maps -> folder containing map parameters
-    
-    plot_map_features.py -> plotting the selected map with its features (obstacles)
-    
-    pf_functions.py -> functions needed for Particle filter algorithm and Odometry/Lidar messages processing 
-    
-    pf_classes.py -> classes needed for Particle filter algorithm and Map representation
-    
-    pf_collect_data_node.py -> node for collecting the data from Odometry and Lidar and storing in Data folder 
-    
-    pf_algo.py -> calculating particles at each step using Data folder and storing results in Data/Estimation folder or just plotting the results directly from Data/Estimation folder
-    
+* [Estimation](Data/Estimation) -> folder containing particles data at each step
+* [Maps](Maps) -> folder containing map parameters
+* [plot_map_features.py](plot_map_features.py) -> plotting the selected map with its features (obstacles)
+* [pf_functions.py](pf_functions.py) -> functions needed for Particle filter algorithm and Odometry/Lidar messages processing 
+* [pf_classes.py](pf_classes.py) -> classes needed for Particle filter algorithm and Map representation
+* [pf_collect_data_node.py](pf_collect_data_node.py) -> node for collecting the data from Odometry and Lidar and storing in Data folder 
+* [pf_algo.py](pf_algo.py) -> calculating particles at each step using Data folder and storing results in Data/Estimation folder or just plotting the results directly from Data/Estimation folder
     
  Note: 
  * Algorithm is implemented from scratch 
