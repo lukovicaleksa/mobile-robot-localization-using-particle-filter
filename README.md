@@ -2,6 +2,7 @@
 Implementation of Particle filter algorithm for mobile robot (turtlebot3_burger) localization in ROS.
 
 Content:
+* [Data](Data) -> folder containing Odometry and Lidar data needed for the algorithm
 
     Data -> folder containing Odometry and Lidar data needed for the algorithm
     
