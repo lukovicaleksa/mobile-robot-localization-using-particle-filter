@@ -3,7 +3,7 @@ Implementation of Particle filter algorithm for mobile robot (turtlebot3_burger)
 
  * Algorithm is implemented from scratch 
  * Only the map turtlebot3_stage_1.launch from turtlebot3_gazebo is handled, im working on more complex maps
- * Data collection is done by manually driving turtlebot using turtlebot3_teleop_key.launch while pf_collect_data_node.py is active
+ * Data collection is done by manually driving turtlebot using turtlebot3_teleop_key.launch while [pf_collect_data_node.py](scripts/pf_collect_data_node.py) is active
 
 # Content
 * [Data](Data) -> folder containing Odometry and Lidar data needed for the algorithm
